@@ -1,0 +1,72 @@
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  padding: 1.2rem;
+
+}
+
+figcaption * {
+  margin: 0.7rem;
+}
+
+figure>div {
+  min-height: 160px;
+}
+
+body {
+
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-color: purple;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: orange;
+}
+
+.three {
+  background-color: yellow;
+}
+
+.four {
+  background-color: blue;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 4%;
+}
+
+figure {
+  flex-basis: 22%;
+}
+
+.s-2 {
+  flex-basis: 48%;
+
+}
+
+.s-3 {
+  flex-basis: 74%;
+}
+
+.s-4 {
+  flex-basis: 100%;
+}
+
+.o-1 {
+  order: 1;
+}
+
+.o-2 {
+  order: 2;
+}
